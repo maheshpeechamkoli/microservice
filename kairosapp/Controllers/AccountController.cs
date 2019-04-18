@@ -8,7 +8,6 @@ using kairosapp.Models;
 using Microsoft.AspNetCore.Identity;
 using Amazon.Extensions.CognitoAuthentication;
 using Amazon.AspNetCore.Identity.Cognito;
-using Amazon.CognitoIdentityProvider.Model;
 
 namespace kairosapp.Controllers
 {
@@ -28,7 +27,7 @@ namespace kairosapp.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Signup()
+        public IActionResult Signup()
         {
             var model = new SignupModel();
             return View(model);
@@ -44,12 +43,6 @@ namespace kairosapp.Controllers
                     ModelState.AddModelError("UserExist","User with this email is already exists");
                     return View(model);
                 }
-                var emailAttribute = new AttributeType
-                {
-                    Name = "email",
-                    Value = model.Email
-                };
-                request.UserAttributes.Add(emailAttribute);
 
                 user.Attributes.Add(CognitoAttribute.Name.ToString(), model.Email);
                 var createUser = await _userManager.CreateAsync(user, model.Password);
@@ -93,5 +86,6 @@ namespace kairosapp.Controllers
             }
             return View();
         }
+
     }
 }
