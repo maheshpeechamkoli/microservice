@@ -1,0 +1,14 @@
+E:\AD\Study\microservice\microservice\kairosapi\bin\Debug\netcoreapp2.1\kairosapi.deps.json
+E:\AD\Study\microservice\microservice\kairosapi\bin\Debug\netcoreapp2.1\kairosapi.runtimeconfig.json
+E:\AD\Study\microservice\microservice\kairosapi\bin\Debug\netcoreapp2.1\kairosapi.runtimeconfig.dev.json
+E:\AD\Study\microservice\microservice\kairosapi\bin\Debug\netcoreapp2.1\kairosapi.dll
+E:\AD\Study\microservice\microservice\kairosapi\bin\Debug\netcoreapp2.1\kairosapi.pdb
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.csprojAssemblyReference.cache
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.csproj.CoreCompileInputs.cache
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.RazorAssemblyInfo.cache
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.RazorAssemblyInfo.cs
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.AssemblyInfoInputs.cache
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.AssemblyInfo.cs
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.RazorTargetAssemblyInfo.cache
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.dll
+E:\AD\Study\microservice\microservice\kairosapi\obj\Debug\netcoreapp2.1\kairosapi.pdb

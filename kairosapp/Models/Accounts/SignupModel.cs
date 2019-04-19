@@ -12,7 +12,7 @@ namespace kairosapp.Models
 
         [Required]
         [DataType(DataType.Password)]
-        [StringLength(6, ErrorMessage="Password must have at least eight character")]
+        [StringLength(8, ErrorMessage="Password must have at least eight character")]
         public string Password { get; set; }
 
         [Required]

@@ -49,7 +49,7 @@ namespace kairosapp.Controllers
 
                 if (createUser.Succeeded)
                 {
-                    RedirectToAction("Confirm");
+                    return RedirectToAction("Confirm");
                 }
             }
             return View();
@@ -62,7 +62,6 @@ namespace kairosapp.Controllers
         [HttpPost]
         public async Task<IActionResult> Confirm(ConfirmModel model)
         {
-            
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByEmailAsync(model.Email);
