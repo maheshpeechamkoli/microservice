@@ -70,7 +70,8 @@ namespace kairosapp.Controllers
                     ModelState.AddModelError("NotFound","A user with given email id was not found");
                     return View(model);
                 }
-                var result = await _userManager.ConfirmEmailAsync(user, model.Code);
+                // var result = await _userManager.ConfirmEmailAsync(user, model.Code);
+                var result = await (_userManager as CognitoUserManager<CognitoUser>).ConfirmSignUpAsync(user, model.Code, true);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "Home");
